@@ -1,8 +1,47 @@
-h1{
-    color:red;
+*{
+    margin: 0;
 }
-
-/**Navigation for mobile devices */
+header{
+    background-color: #F2F2F2;
+}
+.logo{
+    /* border:2px solid red;  */
+    padding-top: 6%;
+    display:flex;
+    justify-content:center;
+    align-items:baseline;
+    /* padding: 15px 0; */
+}
+.meet-logo{
+    /* border:2px solid yellow; */
+    height: 40px;
+    width: 10%;
+}
+.heros{
+    border:2px solid green;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-images{
+    border:2px solid red;
+    width:30%;
+    
+}
+.left-heros{
+    border:2px solid yellow;
+    /* width:70%; */
+    margin-left: -35px;
+    /* width: 80%; */
+    
+}
+.text-section{
+    width:40%;
+}
+.second-images{
+    width:30%;
+}
+/* *Navigation for mobile devices */
 /* @media only screen and (min-width: 200px) and (max-width: 767px)  {
     Put your CSS here for 200px to 767px width devices (cover all width between 200px to 767px 
    
