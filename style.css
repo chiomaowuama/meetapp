@@ -1,3 +1,17 @@
 h1{
     color:red;
 }
+
+/**Navigation for mobile devices */
+/* @media only screen and (min-width: 200px) and (max-width: 767px)  {
+    Put your CSS here for 200px to 767px width devices (cover all width between 200px to 767px 
+   
+} */
+/* ipad */
+/* @media only screen and (min-width: 768px) and (max-width: 1024px)  {
+    Put your CSS here for 768px to 1024px width devices(covers all width between 768px to 1024px   
+} */
+/* landscape */
+/* @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation : portrait) {
+    Put your CSS here for 200px to 767px width devices (cover all mobile portrait width         
+} */
