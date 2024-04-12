@@ -125,15 +125,77 @@ section{
 
 /* page one */
 .div-page1{
-    
-}
-.page1{
+    border:2px solid green;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap:2rem;
+    background-color: #FAFAFA;
 
 }
+.page1{
+    /* border:2px solid red; */
+    
+
+}
+.page1 svg{
+    width: 46px;
+}
 .div-meetingImage{
+    /* border:2px solid green */
+    
 
 }
 .meetingImage{
+    width: 80%;
+    margin:auto;
+    /* border:2px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:.8rem;
+
+}
+.meetingImage img{
+    width:95%;
+    border-radius: 7px;    
+
+}
+.meeting-text{
+    border:2px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.coloredpix{
+    font-family:"Red Hat Display";
+    text-align: center;
+    width: 65%;
+    border:2px solid yellow;
+    color: #4D96A9;
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 1.6cm;
+    font-weight: 900;
+
+    text-shadow:2px 2px 8px #FFFF;
+    margin-bottom: 25px;
+
+}
+.Smarter{
+    font-family:"Red Hat Display";
+    text-align: center;
+    width: 65%;
+    font-size: 60px;
+    line-height: 1.6cm;
+    font-weight: 900;
+    color:#28283D;
+    text-shadow:2px 2px 8px #FFFF;
+    margin-bottom: 25px;
+}
+.Sendmessages{
 
 }
 /* *Navigation for mobile devices */
