@@ -33,7 +33,7 @@ section{
 }
 .first-images{
 
-    padding-top: 3%;
+    padding-top: 2%;
    
 }
 .left-heros{
@@ -42,7 +42,7 @@ section{
     width: 100%;
 }
 .second-images{
-    padding-top: 7%;
+    padding-top: 5%;
 }
 .right-heros{
     margin-left:7%;
@@ -63,7 +63,7 @@ section{
     font-size: 60px;
     line-height: 1.6cm;
     font-weight: 900;
-    color:black;
+    color:#28283D;
     text-shadow:2px 2px 8px #FFFF;
     margin-bottom: 25px;
     
@@ -103,7 +103,7 @@ section{
 }
 .button2{
     border:none;
-    background: #B18BDD;
+    background: #855FB1;
     color:white;
     padding:  15px 30px;
     border-radius: 23px;
@@ -111,12 +111,30 @@ section{
     font-weight: 500;
     cursor: pointer;
 }
+.button2:hover{
+    background-color: #B18BDD;
+}
 .text-section2{
     display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
+}
+
+
+/* page one */
+.div-page1{
+    
+}
+.page1{
+
+}
+.div-meetingImage{
+
+}
+.meetingImage{
+
 }
 /* *Navigation for mobile devices */
 @media only screen and (min-width: 200px) and (max-width: 767px)  {
@@ -188,7 +206,7 @@ section{
         font-size: 80px;
         line-height: 2cm;
         font-weight: 900;
-        color:black;
+        color:#28283D;
         text-shadow:2px 2px 8px #FFFF;
         margin-bottom: 20px;
         
@@ -293,7 +311,7 @@ section{
         font-size: 35px;
         line-height: 1cm;
         font-weight: 900;
-        color:black;
+        color:#28283D;
         text-shadow:2px 2px 8px #FFFF;
         margin-bottom: 20px;
         
