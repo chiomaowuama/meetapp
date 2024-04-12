@@ -179,7 +179,6 @@ section{
     letter-spacing: 3px;
     line-height: 1.6cm;
     font-weight: 900;
-
     text-shadow:2px 2px 8px #FFFF;
     margin-bottom: 25px;
 
@@ -187,11 +186,12 @@ section{
 .Smarter{
     font-family:"Red Hat Display";
     text-align: center;
-    width: 65%;
-    font-size: 60px;
-    line-height: 1.6cm;
+    width: 37%;
+    font-size: 38px;
+    line-height: 1.4cm;
     font-weight: 900;
     color:#28283D;
+    letter-spacing: -1px;
     text-shadow:2px 2px 8px #FFFF;
     margin-bottom: 25px;
 }
