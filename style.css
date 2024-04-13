@@ -7,6 +7,7 @@
 header{
     background-color: #FAFAFA;
     height: 100vh;
+    /* border:2px solid green */
 }
 .logo{
     height: 5%;
@@ -18,10 +19,10 @@ header{
 .meet-logo{
     height: 30px;
     width: 10%;
-    /* border: 2px solid red;; */
 }
 /* heros */
 section{
+    /* border: 2px solid red;; */
     height: fit-content;
     margin-top: 3%;
 }
@@ -32,9 +33,7 @@ section{
     /* height:100%; */
 }
 .first-images{
-
     padding-top: 2%;
-   
 }
 .left-heros{
    
@@ -129,23 +128,13 @@ section{
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    padding-bottom: 10%;
+    padding-bottom: 4%;
     gap:2rem;
     background-color: #FAFAFA;
-
 }
-.page1{
-    /* border:2px solid red; */
-    
 
-}
 .page1 svg{
     width: 46px;
-}
-.div-meetingImage{
-    /* border:2px solid green */
-    
-
 }
 .meetingImage{
     width: 80%;
@@ -198,8 +187,8 @@ section{
 
 /* footer */
 .smalltext1{
-    width:35%; 
-    font-size: 15px;
+    width:36%; 
+    font-size: 16px;
     font-family: "Red Hat Display";
     font-weight: 500;
     color:#87879D;
@@ -209,7 +198,8 @@ section{
 }
 
 .div-page2{
-    height: 100vh;
+    /* height: 100vh; */
+    /* border:2px solid yellow; */
     background-color: #FAFAFA;
 }
 .page2{
@@ -222,27 +212,36 @@ section{
     justify-content: center;
     align-items: center;
     display:flex;
-    height:30% ;
+    height:55%;
 }
 .page3 svg{
-    width: 40%;
+    width: 30%;
     height: 120px;
-    margin-bottom:-50px ;
+    margin-bottom:-30px ;
+    padding-top: 3%;
 }
 .green-footer{
+    /* border:2px solid red; */
     background-image: url('assets/Bitmap.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50%;
-    height:70% ;
+    /* background-position: 50%; */
+    /* height:70% ; */
+
+    /* align-items: center; */
+    padding:7% 0;
+}
+.Experience{
+    width:80%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .Smarter2{
     font-family:"Red Hat Display";
-    text-align: center;
-    width: 43%;
+    text-align: start;
+    width: 40%;
     font-size: 36px;
     line-height: 1cm;
     font-weight: 900;
@@ -250,13 +249,14 @@ section{
     letter-spacing: -1px;
 }
 .smalltext2{
-    width:75%; 
-    font-size: 15px;
+    width:36%; 
+    font-size: 19px;
     font-family: "Red Hat Display";
     font-weight: 500;
     color:#fff;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
     text-align: center;
+
 }
 .button3{
     border:none;
@@ -267,6 +267,7 @@ section{
     font-family:"Red Hat Display";
     font-weight: 800;
     cursor: pointer;
+
 }
 .button3 span{
     color: #D9B8FF;
@@ -537,7 +538,7 @@ section{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        /* border: 2px solid green; */
+        border: 2px solid green;
         /* padding: 40% 0; */
     }
     .Smarter2{
@@ -550,7 +551,7 @@ section{
         color:#fff;
         letter-spacing: -1px;
         /* text-shadow:2px 2px 8px #FFFF; */
-        /* border:2px solid red; */
+        border:2px solid red;
     }
     .smalltext2{
         width:75%; 
@@ -580,6 +581,24 @@ section{
 }
 /* landscape */
 @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation : portrait) {
+    header{
+        background-color: #FAFAFA;
+        height: fit-content;
+        /* border:2px solid green; */
+        padding-bottom: 15%;
+        padding-top: 5%;
+    }
+    section{
+        /* border: 2px solid red; */
+        height: fit-content;
+        margin-top: 5%;
+    }
+    .heros{
+        display:flex;
+        justify-content: center;
+        overflow-x: hidden;
+        /* height:100%; */
+    }
     .logo{
         height: 5%;
         padding-top: 5%;
@@ -611,7 +630,8 @@ section{
         justify-content: center;
         align-items: center;
         margin-top: 8%;
-        
+        /* border: 2px solid green; */
+        gap: 1rem;
     }
     .bigtext{
         font-family:"Red Hat Display";
@@ -676,8 +696,6 @@ section{
     /* the page1 */
     .div-meetingImage{
         /* border:2px solid green */
-        
-    
     }
     .meetingImage{
         width: 90%;
@@ -771,7 +789,12 @@ section{
     width: 40%;
     height: 120px;
     margin-top:50px ;
-    /* border:2px solid green */
+}
+.Experience{
+    direction: flex;
+    flex-direction: column;
+    /* padding-bottom: 5%; */
+
 }
 .green-footer{
     background-image: url('assets/Bitmap.png');
@@ -782,19 +805,22 @@ section{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* padding: 40% 0; */
+    padding-bottom: 20%;
+
+
 }
 .Smarter2{
     font-family:"Red Hat Display";
     text-align: center;
-    width: 43%;
-    font-size: 36px;
+    width: 80%;
+    font-size: 30px;
     line-height: 1cm;
     font-weight: 900;
     color:#fff;
     letter-spacing: -1px;
     /* text-shadow:2px 2px 8px #FFFF; */
-    /* border:2px solid red; */
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .smalltext2{
     width:75%; 
@@ -804,16 +830,18 @@ section{
     color:#fff;
     margin-bottom: 25px;
     text-align: center;
+    margin-bottom: 5%;
 }
 .button3{
     border:none;
     background: #855FB1;
     color:white;
-    padding: 15px 30px;
+    padding: 15px 45px;
     border-radius: 23px;
     font-family:"Red Hat Display";
     font-weight: 800;
     cursor: pointer;
+
 }
 .button3 span{
     color: #D9B8FF;
