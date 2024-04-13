@@ -125,12 +125,11 @@ section{
 
 /* page one */
 .div-page1{
-    border:2px solid green;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+    padding-bottom: 10%;
     gap:2rem;
     background-color: #FAFAFA;
 
@@ -198,14 +197,82 @@ section{
 }
 
 /* footer */
-.Sendmessages{
-
+.smalltext1{
+    width:35%; 
+    font-size: 15px;
+    font-family: "Red Hat Display";
+    font-weight: 500;
+    color:#87879D;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
 }
+
 .div-page2{
-    border:2px solid green;
+    height: 100vh;
+    background-color: #FAFAFA;
+}
+.page2{
+    height: 25%;
+}
+.div-page3{
+    height: 75%;
+}
+.page3{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    height:30% ;
+}
+.page3 svg{
+    width: 40%;
+    height: 120px;
+    margin-bottom:-50px ;
 }
 .green-footer{
     background-image: url('assets/Bitmap.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height:70% ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Smarter2{
+    font-family:"Red Hat Display";
+    text-align: center;
+    width: 43%;
+    font-size: 36px;
+    line-height: 1cm;
+    font-weight: 900;
+    color:#fff;
+    letter-spacing: -1px;
+}
+.smalltext2{
+    width:75%; 
+    font-size: 15px;
+    font-family: "Red Hat Display";
+    font-weight: 500;
+    color:#fff;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.button3{
+    border:none;
+    background: #855FB1;
+    color:white;
+    padding: 15px 30px;
+    border-radius: 23px;
+    font-family:"Red Hat Display";
+    font-weight: 800;
+    cursor: pointer;
+}
+.button3 span{
+    color: #D9B8FF;
+}
+.button3:hover{
+    background: #B18BDD;;
 }
 /* *Navigation for mobile devices */
 @media only screen and (min-width: 200px) and (max-width: 767px)  {
@@ -339,7 +406,7 @@ section{
     /* the page1 */
     .div-page1{
         /* border:2px solid green; */
-        height: 100vh;
+        /* height: 100vh; */
         display: flex;
         flex-direction: column;
         /* justify-content: center; */
@@ -414,10 +481,101 @@ section{
         color:#28283D;
         letter-spacing: -1px;
         text-shadow:2px 2px 8px #FFFF;
-        /* border:2px solid red; */
     }
     .Sendmessages{
+        
+    }
+    /* the footer */
+    /* footer */
+    .smalltext1{
+        width:90%; 
+        font-size: 20px;
+        font-family: "Red Hat Display";
+        font-weight: 500;
+        color:#87879D;
+        margin-left: auto;
+        margin-right: auto;
+        line-height:.8cm;
+        /* margin-bottom: 6%; */
+        /* border:2px solid red; */
+        text-align:center;
     
+    }
+
+    .div-page2{
+        /* border:2px solid green; */
+        /* height: 100vh; */
+        background-color: #FAFAFA;
+    }
+    .page2{
+        /* border:2px solid blue; */
+        height: 10%;
+    }
+    .div-page3{
+        /* border:2px solid red; */
+        height: 90%;
+    }
+    .page3{
+        /* border:2px solid green; */
+        justify-content: center;
+        align-items: center;
+        display:flex;
+        height:20% ;
+    }
+    .page3 svg{
+        width: 10%;
+        height: 170px;
+        margin-top:50px ;
+        /* border:2px solid green */
+    }
+    .green-footer{
+        background-image: url('assets/Bitmap.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        height:80% ;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* border: 2px solid green; */
+        /* padding: 40% 0; */
+    }
+    .Smarter2{
+        font-family:"Red Hat Display";
+        text-align: center;
+        width: 43%;
+        font-size: 36px;
+        line-height: 1cm;
+        font-weight: 900;
+        color:#fff;
+        letter-spacing: -1px;
+        /* text-shadow:2px 2px 8px #FFFF; */
+        /* border:2px solid red; */
+    }
+    .smalltext2{
+        width:75%; 
+        font-size: 15px;
+        font-family: "Red Hat Display";
+        font-weight: 500;
+        color:#fff;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .button3{
+        border:none;
+        background: #855FB1;
+        color:white;
+        padding: 15px 30px;
+        border-radius: 23px;
+        font-family:"Red Hat Display";
+        font-weight: 800;
+        cursor: pointer;
+    }
+    .button3 span{
+        color: #D9B8FF;
+    }
+    .button3:hover{
+        background: #B18BDD;;
     }
 }
 /* landscape */
@@ -428,23 +586,17 @@ section{
         display:flex;
         justify-content:center;
         align-items:baseline;
-        /* border:2px solid red; */
     }
     .meet-logo{
         height: 40px;
         width: 100%;
         width:30%;
-        /* border:2px solid blue; */
     }
-
-  
     .heros{
         display:flex;
         justify-content: center;
         overflow-x: hidden;
-        /* height:100%; */
     }
-
      /* text */
     .text-section{
         display: none;
@@ -461,7 +613,6 @@ section{
         margin-top: 8%;
         
     }
-  
     .bigtext{
         font-family:"Red Hat Display";
         text-align: center;
@@ -579,5 +730,97 @@ section{
     .Sendmessages{
     
     }
+
+    /* the footer */
+    /* footer */
+.smalltext1{
+    width:90%; 
+    font-size: 18px;
+    font-family: "Red Hat Display";
+    font-weight: 500;
+    color:#87879D;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: .8cm;
+    /* margin-bottom: 6%; */
+    text-align:center;
+  
 }
+
+.div-page2{
+    /* border:2px solid green; */
+    /* height: 100vh; */
+    background-color: #FAFAFA;
+}
+.page2{
+    /* border:2px solid blue; */
+    height: 25%;
+}
+.div-page3{
+    /* border:2px solid red; */
+    height: 75%;
+}
+.page3{
+    /* border:2px solid green; */
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    height:30% ;
+}
+.page3 svg{
+    width: 40%;
+    height: 120px;
+    margin-top:50px ;
+    /* border:2px solid green */
+}
+.green-footer{
+    background-image: url('assets/Bitmap.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height:70% ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 40% 0; */
+}
+.Smarter2{
+    font-family:"Red Hat Display";
+    text-align: center;
+    width: 43%;
+    font-size: 36px;
+    line-height: 1cm;
+    font-weight: 900;
+    color:#fff;
+    letter-spacing: -1px;
+    /* text-shadow:2px 2px 8px #FFFF; */
+    /* border:2px solid red; */
+}
+.smalltext2{
+    width:75%; 
+    font-size: 15px;
+    font-family: "Red Hat Display";
+    font-weight: 500;
+    color:#fff;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.button3{
+    border:none;
+    background: #855FB1;
+    color:white;
+    padding: 15px 30px;
+    border-radius: 23px;
+    font-family:"Red Hat Display";
+    font-weight: 800;
+    cursor: pointer;
+}
+.button3 span{
+    color: #D9B8FF;
+}
+.button3:hover{
+    background: #B18BDD;;
+}
+}
+
 
