@@ -561,6 +561,7 @@ section{
     .button3:hover{
         background: #B18BDD;;
     }
+}
 /* landscape */
 @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation : portrait) {
     header{
@@ -833,4 +834,4 @@ section{
 }
 }
 
-}
+
